@@ -1,0 +1,129 @@
+% How to change this file:
+% - Every entry on a single line;
+% - Line-comments with a percentage-sign;
+% - Empty lines are ignored;
+% - Make sure both British and American english are covered.
+
+% Sources:
+% - matt.might.net
+% - Wikipedia
+% - http://grammar.about.com
+% - http://changingminds.org
+% - http://melissajagears.com
+
+most
+many
+various
+some
+a lot
+several
+few
+often
+probably
+huge
+tiny
+very
+fairly
+extremely
+exceedingly
+quite
+remarkably
+surprisingly
+mostly
+largely
+is a number
+are a number
+excellent
+interestingly
+significantly
+substantially
+clearly
+vast
+relatively
+completely
+literally
+not rocket science
+outside the box
+expert
+experts
+helps
+reportedly
+arguably
+linked to
+supports
+useful
+better
+improved
+gains
+acts
+works
+effective
+efficient
+seems
+appears
+looks
+is like
+virtually
+lots
+almost
+could
+combats
+felt
+heard
+saw
+knew
+realized
+realised
+wanted
+thought
+noticed
+seemed
+decided
+looked
+understood
+considered
+believed
+appeared
+watched
+smelled
+touched
+wondered
+recognized
+recognised
+wished
+supposed
+about
+just
+really
+started
+began
+all
+again
+that
+so
+then
+rather
+only
+like
+close
+even
+somehow
+sort
+pretty
+well
+back
+up
+down
+anyway
+real
+already
+own
+over
+ever
+be able to
+still
+bit
+far
+also
+enough
+might
