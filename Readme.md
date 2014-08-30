@@ -57,6 +57,10 @@ Return _all_ values (Array) in the internal database.
 
 Note that the words listed in **weasels** _might_ or, in fact, _might_ not be weasels.
 
+## Related
+
+- [fillers](https://github.com/wooorm/fillers) — List of filler words.
+
 ## License
 
 MIT © Titus Wormer
