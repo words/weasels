@@ -8,11 +8,14 @@
     "word",
     "list"
   ],
+  "dependencies": {
+    "wooorm/datalist-interface": "~0.0.1"
+  },
   "repository": "wooorm/weasels",
-  "scripts" : [
+  "scripts": [
     "index.js"
   ],
-  "json" : [
+  "json": [
     "data/weasels.json"
   ]
 }
