@@ -59,6 +59,7 @@ Note that the words listed in **weasels** _might_ or, in fact, _might_ not be we
 
 ## Related
 
+- [buzzwords](https://github.com/wooorm/buzzwords) — List of buzzwords;
 - [fillers](https://github.com/wooorm/fillers) — List of filler words;
 - [hedges](https://github.com/wooorm/hedges) — List of hedge words.
 
