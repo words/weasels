@@ -1,7 +1,7 @@
 'use strict';
 
 var fs = require('fs'),
-    words = require('./data/weasels.json');
+    words = require('../data/weasels.json');
 
 fs.writeFileSync('Supported-words.md',
     'Supported words\n' +
