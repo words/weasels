@@ -1,28 +1,39 @@
 'use strict';
 
-var weasel, assert;
+/**
+ * Dependencies.
+ */
 
-weasel = require('./');
+var weasels,
+    assert;
+
+weasels = require('./');
 assert = require('assert');
 
-describe('weasel', function () {
+/**
+ * Tests.
+ */
+
+describe('weasels', function () {
     it('should be an `Object`', function () {
-        assert(typeof weasel === 'object');
+        assert(typeof weasels === 'object');
     });
 });
 
-describe('weasel.is(word)', function () {
-    it('should return true if a word is a weasel', function () {
-        assert(weasel.is('vast') === true);
+describe('weasels.is(word)', function () {
+    it('should return true if a word is listed', function () {
+        assert(weasels.is('vast') === true);
     });
 
-    it('should return false if a word is not a weasel', function () {
-        assert(weasel.is('unicorn') === false);
+    it('should return false if a word is not listed', function () {
+        assert(weasels.is('unicorn') === false);
     });
 });
 
-describe('weasel.all()', function () {
-    var all = weasel.all();
+describe('weasels.all()', function () {
+    var all;
+
+    all = weasels.all();
 
     it('should return an array', function () {
         assert('length' in all);
@@ -30,57 +41,57 @@ describe('weasel.all()', function () {
     });
 
     it('every entry should be lowercase', function () {
-        var iterator = -1,
-            length = all.length;
-
-        while (++iterator < length) {
-            assert(all[iterator].toLowerCase() === all[iterator]);
-        }
+        all.forEach(function (word) {
+            assert(word.toLowerCase() === word);
+        });
     });
 
     it('every entry should only occur once', function () {
-        var iterator = -1,
-            length = all.length;
-
-        while (++iterator < length) {
-            assert(all.indexOf(all[iterator], iterator + 1) === -1);
-        }
+        all.forEach(function (word, index) {
+            assert(all.indexOf(word, index + 1) === -1);
+        });
     });
 
     it('should be immutable', function () {
         all.push('unicorn');
 
-        assert(weasel.all().indexOf('unicorn') === -1);
+        assert(weasels.all().indexOf('unicorn') === -1);
     });
 });
 
-describe('weasel.add(word) and weasel.remove(word)', function () {
+describe('weasels.add(word) and weasels.remove(word)', function () {
     it('should add and remove a word', function () {
-        assert(weasel.is('unicorn') === false);
+        assert(weasels.is('unicorn') === false);
 
-        weasel.add('unicorn');
-        assert(weasel.is('unicorn') === true);
+        weasels.add('unicorn');
 
-        weasel.remove('unicorn');
-        assert(weasel.is('unicorn') === false);
+        assert(weasels.is('unicorn') === true);
+
+        weasels.remove('unicorn');
+
+        assert(weasels.is('unicorn') === false);
     });
 
     it('should add and remove multiple words', function () {
-        assert(weasel.is('unicorn') === false);
-        assert(weasel.is('rainbow') === false);
+        assert(weasels.is('unicorn') === false);
+        assert(weasels.is('rainbow') === false);
 
-        weasel.add('unicorn', 'rainbow');
-        assert(weasel.is('unicorn') === true);
-        assert(weasel.is('rainbow') === true);
+        weasels.add('unicorn', 'rainbow');
 
-        weasel.remove('unicorn', 'rainbow');
-        assert(weasel.is('unicorn') === false);
-        assert(weasel.is('rainbow') === false);
+        assert(weasels.is('unicorn') === true);
+        assert(weasels.is('rainbow') === true);
+
+        weasels.remove('unicorn', 'rainbow');
+
+        assert(weasels.is('unicorn') === false);
+        assert(weasels.is('rainbow') === false);
     });
 
     it('should fail silently when removing a non-existing word', function () {
-        assert(weasel.is('unicorn') === false);
-        weasel.remove('unicorn');
-        assert(weasel.is('unicorn') === false);
+        assert(weasels.is('unicorn') === false);
+
+        weasels.remove('unicorn');
+
+        assert(weasels.is('unicorn') === false);
     });
 });
