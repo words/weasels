@@ -3,8 +3,8 @@
 var fs = require('fs'),
     words = require('./data/weasels.json');
 
-fs.writeFileSync('Supported-weasel-words.md',
-    'Supported Weasel-words\n' +
+fs.writeFileSync('Supported-words.md',
+    'Supported words\n' +
     '=================\n' +
     '\n' +
 

@@ -1,4 +1,4 @@
-Supported Weasel-words
+Supported words
 =================
 
 * “a lot”;
