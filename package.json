@@ -17,7 +17,7 @@
     "plain-text-data-to-json": "^0.1.1"
   },
   "dependencies": {
-    "datalist-interface": "^0.0.1"
+    "datalist-interface": "^0.1.0"
   },
   "repository": {
     "type": "git",
