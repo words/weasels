@@ -2,7 +2,7 @@
 
 var weasel, assert;
 
-weasel = require('..');
+weasel = require('./');
 assert = require('assert');
 
 describe('weasel', function () {
