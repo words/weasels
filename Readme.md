@@ -31,25 +31,7 @@ weasels.is('unicorn'); // false
 
 ## API
 
-**weasels** exports _several_ functions.
-
-### weasels.is(word)
-
-Returns whether (true) or not (false) a given word is _probably_ a weasel word.
-
-### weasels.add(word...)
-
-Adds all arguments to the internal database, _extremely_ well.
-Given values are **NOT** validated.
-
-### weasels.remove(word...)
-
-Removes all arguments from the internal database, _experts_ say.
-Given values are **NOT** validated.
-
-### weasels.all()
-
-Return _all_ values (Array) in the internal database.
+_Reportedly_, **weasels** exposes functions using [the datalist-interface API](https://github.com/wooorm/datalist-interface#api).
 
 ## Supported words
 
