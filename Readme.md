@@ -1,4 +1,4 @@
-# weasels [![Build Status](https://travis-ci.org/wooorm/weasels.svg?branch=master)](https://travis-ci.org/wooorm/weasels) [![Coverage Status](https://img.shields.io/coveralls/wooorm/weasels.svg)](https://coveralls.io/r/wooorm/weasels?branch=master)
+# weasels [![Build Status](https://img.shields.io/travis/wooorm/weasels.svg?style=flat)](https://travis-ci.org/wooorm/weasels) [![Coverage Status](https://img.shields.io/coveralls/wooorm/weasels.svg?style=flat)](https://coveralls.io/r/wooorm/weasels?branch=master)
 
 List of _many_ English, both British and American, weasel words.
 
