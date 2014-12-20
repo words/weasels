@@ -48,4 +48,4 @@ Note that the words listed in **weasels** _might_ or, in fact, _might_ not be we
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
