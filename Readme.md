@@ -35,7 +35,7 @@ _Reportedly_, **weasels** exposes functions using [the datalist-interface API](h
 
 ## Supported words
 
-**weasels** supports _several_ weasel words and phrases. For a complete list, see [Supported-weasel-words.md](Supported-weasel-words.md).
+**weasels** supports _several_ weasel words and phrases. For a complete list, see [Support.md](Support.md).
 
 Note that the words listed in **weasels** _might_ or, in fact, _might_ not be weasels.
 
