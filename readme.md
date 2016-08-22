@@ -43,7 +43,7 @@ _Reportedly_, **weasels** exposes a list of strings (`Array.<string>`).
 
 ## Support
 
-**weasels** supports _several_ weasel words and phrases. For a complete
+**weasels** supports _several_ weasel words and phrases.  For a complete
 list, see  [index.json][data].
 
 Note that the words listed in **weasels** _might_ or, in fact, _might_
