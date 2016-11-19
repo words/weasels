@@ -44,7 +44,7 @@ _Reportedly_, **weasels** exposes a list of strings (`Array.<string>`).
 ## Support
 
 **weasels** supports _several_ weasel words and phrases.  For a complete
-list, see  [index.json][data].
+list, see [`data.txt`][data].
 
 Note that the words listed in **weasels** _might_ or, in fact, _might_
 not be weasels.
@@ -84,4 +84,4 @@ not be weasels.
 
 [author]: http://wooorm.com
 
-[data]: index.json
+[data]: data.txt

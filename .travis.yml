@@ -1,9 +1,8 @@
 language: node_js
 node_js:
 - '4.0'
-- '5.0'
-- '6.0'
-after_success: bash <(curl -s https://codecov.io/bash)
+- '7.0'
+after_script: bash <(curl -s https://codecov.io/bash)
 sudo: false
 deploy:
   - provider: npm
@@ -12,7 +11,7 @@ deploy:
       secure: Qau6SlUg8DviNQPQyiazu7c8VSMXeChcGfNUeRPJbJC+u4gOX2DesfzNiIlJCueHifwdqIp0q8Sabj/EOcuAvSpZwlsRp1lqIaXiTEHZHXxsZRWk6RTkGCKNRG6/rhATE8W7RNdYcan39YR1qpKPdn7svtO0UTi/z7WZsVHp+DQ=
     on:
       tags: true
-      node: '5.0'
+      node: '4.0'
   - provider: releases
     api_key:
       secure: Ll8D7i6u2mSDtcfL12FLixDODn7paHUXfvGsNGlOu3p7juoAuAajPQxr+mtdMhGFkL/QHa8b+3gdiUEy9az0+eKdtFgTaYECTVIbiBGZmu2vlIed1OYy1wan2lKmYAItAt+K9kRNvl6Kp2v1+HFFVSCbIMe1BqvYgCbwud+yShM=
@@ -21,4 +20,4 @@ deploy:
       - "weasels.min.js"
     on:
       tags: true
-      node: '6.0'
+      node: '7.0'

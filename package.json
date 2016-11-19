@@ -8,21 +8,21 @@
     "word",
     "list"
   ],
-  "files": [
-    "index.js",
-    "index.json"
-  ],
   "repository": "https://github.com/wooorm/weasels",
   "bugs": "https://github.com/wooorm/weasels/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
   ],
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
   "dependencies": {},
   "devDependencies": {
     "browserify": "^13.0.1",
     "esmangle": "^1.0.1",
-    "nyc": "^8.1.0",
+    "nyc": "^9.0.1",
     "plain-text-data-to-json": "^1.0.0",
     "remark-cli": "^2.0.0",
     "remark-preset-wooorm": "^1.0.0",
@@ -31,10 +31,10 @@
   },
   "scripts": {
     "build-md": "remark . --quiet --frail",
-    "build-generate": "node script/generate.js",
-    "build-bundle": "browserify index.js --bare -s weasels > weasels.js",
+    "build-generate": "node build",
+    "build-bundle": "browserify index.json --bare -s weasels > weasels.js",
     "build-mangle": "esmangle weasels.js > weasels.min.js",
-    "build": "npm run build-md && npm run build-generate && npm run build-bundle && npm run build-mangle",
+    "build": "npm run build-generate && npm run build-md && npm run build-bundle && npm run build-mangle",
     "lint": "xo",
     "test-api": "node test",
     "test-coverage": "nyc --reporter lcov tape test.js",
