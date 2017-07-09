@@ -1,4 +1,4 @@
-# weasels [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# weasels [![Build Status][travis-badge]][travis]
 
 List of _many_ English, both British and American, weasel words.
 
@@ -73,10 +73,6 @@ not be weasels.
 [travis-badge]: https://img.shields.io/travis/wooorm/weasels.svg
 
 [travis]: https://travis-ci.org/wooorm/weasels
-
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/weasels.svg
-
-[codecov]: https://codecov.io/github/wooorm/weasels
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
