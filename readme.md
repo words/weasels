@@ -70,9 +70,9 @@ not be weasels.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/weasels.svg
+[travis-badge]: https://img.shields.io/travis/words/weasels.svg
 
-[travis]: https://travis-ci.org/wooorm/weasels
+[travis]: https://travis-ci.org/words/weasels
 
 [npm]: https://docs.npmjs.com/cli/install
 

@@ -8,8 +8,8 @@
     "word",
     "list"
   ],
-  "repository": "https://github.com/wooorm/weasels",
-  "bugs": "https://github.com/wooorm/weasels/issues",
+  "repository": "words/weasels",
+  "bugs": "https://github.com/words/weasels/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
