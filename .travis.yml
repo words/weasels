@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - '4.0'
-- '8.0'
+- '9.0'
 sudo: false
 deploy:
   - provider: npm
@@ -10,7 +10,7 @@ deploy:
       secure: Qau6SlUg8DviNQPQyiazu7c8VSMXeChcGfNUeRPJbJC+u4gOX2DesfzNiIlJCueHifwdqIp0q8Sabj/EOcuAvSpZwlsRp1lqIaXiTEHZHXxsZRWk6RTkGCKNRG6/rhATE8W7RNdYcan39YR1qpKPdn7svtO0UTi/z7WZsVHp+DQ=
     on:
       tags: true
-      node: '4.0'
+      node: '9.0'
   - provider: releases
     skip_cleanup: true
     api_key:
@@ -20,4 +20,4 @@ deploy:
       - "weasels.min.js"
     on:
       tags: true
-      node: '8.0'
+      node: '9.0'
