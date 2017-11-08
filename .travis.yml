@@ -5,6 +5,7 @@ node_js:
 sudo: false
 deploy:
   - provider: npm
+    skip_cleanup: true
     email: tituswormer@gmail.com
     api_key:
       secure: Qau6SlUg8DviNQPQyiazu7c8VSMXeChcGfNUeRPJbJC+u4gOX2DesfzNiIlJCueHifwdqIp0q8Sabj/EOcuAvSpZwlsRp1lqIaXiTEHZHXxsZRWk6RTkGCKNRG6/rhATE8W7RNdYcan39YR1qpKPdn7svtO0UTi/z7WZsVHp+DQ=
