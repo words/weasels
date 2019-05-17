@@ -47,8 +47,8 @@ Yields:
 
 ## Support
 
-`weasels` supports *several* weasel words and phrases.  For a complete
-list, see [`data.txt`][data].
+`weasels` supports *several* weasel words and phrases.
+For a complete list, see [`data.txt`][data].
 
 Note that the words listed in **weasels** *might* or, in fact, *might*
 not be weasels.
