@@ -1,4 +1,8 @@
-# weasels [![Build Status][travis-badge]][travis]
+# weasels
+
+[![Build][build-badge]][build]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 List of *many* English, both British and American, weasel words.
 
@@ -70,9 +74,17 @@ not be weasels.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/words/weasels.svg
+[build-badge]: https://img.shields.io/travis/words/weasels.svg
 
-[travis]: https://travis-ci.org/words/weasels
+[build]: https://travis-ci.org/words/weasels
+
+[downloads-badge]: https://img.shields.io/npm/dm/weasels.svg
+
+[downloads]: https://www.npmjs.com/package/weasels
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/weasels.svg
+
+[size]: https://bundlephobia.com/result?p=weasels
 
 [npm]: https://docs.npmjs.com/cli/install
 
