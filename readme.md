@@ -1,6 +1,6 @@
 # weasels [![Build Status][travis-badge]][travis]
 
-List of _many_ English, both British and American, weasel words.
+List of *many* English, both British and American, weasel words.
 
 ## Installation
 
@@ -39,14 +39,14 @@ Yields:
 
 ### `weasels`
 
-_Reportedly_, **weasels** exposes a list of strings (`Array.<string>`).
+*Reportedly*, **weasels** exposes a list of strings (`Array.<string>`).
 
 ## Support
 
-`weasels` supports _several_ weasel words and phrases.  For a complete
+`weasels` supports *several* weasel words and phrases.  For a complete
 list, see [`data.txt`][data].
 
-Note that the words listed in **weasels** _might_ or, in fact, _might_
+Note that the words listed in **weasels** *might* or, in fact, *might*
 not be weasels.
 
 ## Related

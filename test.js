@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var weasels = require('./');
+var weasels = require('.');
 
 test('weasels', function (t) {
   t.equal(typeof weasels, 'object', 'should be an array #1');
