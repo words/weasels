@@ -1,8 +1,10 @@
-'use strict';
+'use strict'
 
-var fs = require('fs');
-var toJSON = require('plain-text-data-to-json');
+var fs = require('fs')
+var toJSON = require('plain-text-data-to-json')
 
-var data = JSON.stringify(toJSON(fs.readFileSync('data.txt', 'utf8')), null, 2) + '\n';
+var doc = fs.readFileSync('data.txt', 'utf8')
 
-fs.writeFileSync('index.json', data);
+var data = JSON.stringify(toJSON(doc), null, 2) + '\n'
+
+fs.writeFileSync('index.json', data)

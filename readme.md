@@ -13,11 +13,11 @@ npm install weasels
 ## Usage
 
 ```js
-var weasels = require('weasels');
+var weasels = require('weasels')
 
-weasels.length; //=> 116
+console.log(weasels.length) //=> 116
 
-console.log(weasels.slice(0, 10));
+console.log(weasels.slice(0, 10))
 ```
 
 Yields:
