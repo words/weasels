@@ -7,8 +7,8 @@
 % Sources:
 % - matt.might.net
 % - Wikipedia
-% - http://grammar.about.com
-% - http://changingminds.org
+% - https://grammar.about.com
+% - https://changingminds.org
 % - http://melissajagears.com
 
 most
