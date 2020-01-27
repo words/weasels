@@ -6,15 +6,15 @@
 
 List of *many* English, both British and American, weasel words.
 
-## Installation
+## Install
 
-[npm][npm]:
+[npm][]:
 
-```bash
+```sh
 npm install weasels
 ```
 
-## Usage
+## Use
 
 ```js
 var weasels = require('weasels')
@@ -50,8 +50,8 @@ Yields:
 `weasels` supports *several* weasel words and phrases.
 For a complete list, see [`data.txt`][data].
 
-Note that the words listed in **weasels** *might* or, in fact, *might*
-not be weasels.
+Note that the words listed in **weasels** *might* or, in fact, *might* not be
+weasels.
 
 ## Related
 
