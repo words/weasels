@@ -1,2 +1,4 @@
+coverage/
 weasels.js
 weasels.min.js
+*.md
