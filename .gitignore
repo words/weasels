@@ -1,7 +1,5 @@
 .DS_Store
 *.log
+coverage/
 node_modules/
-index.json
-weasels.js
-weasels.min.js
 yarn.lock

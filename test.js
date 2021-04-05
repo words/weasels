@@ -1,7 +1,5 @@
-'use strict'
-
-var test = require('tape')
-var weasels = require('.')
+import test from 'tape'
+import {weasels} from './index.js'
 
 test('weasels', function (t) {
   t.equal(typeof weasels, 'object', 'should be an array #1')

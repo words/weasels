@@ -9,6 +9,9 @@ List of *many* English, both British and American, weasel words.
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -18,7 +21,7 @@ npm install weasels
 ## Use
 
 ```js
-var weasels = require('weasels')
+import {weasels} from 'weasels'
 
 console.log(weasels.length) //=> 116
 
@@ -41,6 +44,9 @@ Yields:
 ```
 
 ## API
+
+This package exports the following identifiers: `weasels`.
+There is no default export.
 
 ### `weasels`
 
