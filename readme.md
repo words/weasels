@@ -1,6 +1,7 @@
 # weasels
 
 [![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
@@ -74,9 +75,13 @@ weasels.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/words/weasels.svg
+[build-badge]: https://github.com/words/weasels/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/words/weasels
+[build]: https://github.com/words/weasels/actions
+
+[coverage-badge]: https://img.shields.io/codecov/c/github/words/weasels.svg
+
+[coverage]: https://codecov.io/github/words/weasels
 
 [downloads-badge]: https://img.shields.io/npm/dm/weasels.svg
 
