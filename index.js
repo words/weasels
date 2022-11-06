@@ -1,3 +1,6 @@
+/**
+ * List of *many* English, both British and American, weasel words.
+ */
 export const weasels = [
   'a lot',
   'about',
