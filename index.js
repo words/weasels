@@ -1,4 +1,4 @@
-export var weasels = [
+export const weasels = [
   'a lot',
   'about',
   'acts',
